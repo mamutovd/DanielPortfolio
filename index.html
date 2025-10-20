@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Daniel-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <body>
+    <canvas id="particles"></canvas>
+    <header>
+      <div class="header_container">
+        <div class="header_wrapper">
+          <div class="header-h1">
+            <h1>Daniel Mamutov</h1>
+          </div>
+          <nav class="nav-wrapper">
+            <ul class="header_menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact" class="header_contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle" class="theme-toggle">☀️</button>
+
+            <button class="burger-btn" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="s1">
+      <div class="container">
+        <div class="s1_wrapper">
+          <div class="s1_content">
+            <p class="s1_hi">
+              Hi !
+              <span class="s1_me">
+                <br />I’m Daniel. <br />a Front-End Developer</span
+              >
+            </p>
+            <p class="s1_about">
+              I’m from Bishkek, Kyrgyzstan <br />
+              passionate about creating user-friendly and responsive web
+              interfaces. <br />
+              Experienced with HTML, CSS, JavaScript. <br />
+              I enjoy writing clean code and building fast, responsive websites.
+              <br />
+              Always eager to learn and explore new technologies.
+            </p>
+          </div>
+          <div class="s1_logo">
+            <img class="s1_logo2" src="Logo2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="s2">
+      <div class="container">
+        <div class="s2_wrapper">
+          <div class="s2_content">
+            <p class="s2_passions">Skills</p>
+            <div class="s2_line"></div>
+          </div>
+          <div class="s2_cards">
+            <!-- Карточка 1 -->
+            <div class="s2_card">
+              <div class="s2_card_image">
+                <img src="s2_image1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <h3 class="s2_h3">HTML</h3>
+              </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="s2_card">
+              <div class="s2_card_image">
+                <img src="s2_image2.jpeg" alt="" />
+              </div>
+              <div class="card-content">
+                <h3 class="s2_h3">CSS</h3>
+              </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="s2_card">
+              <div class="s2_card_image">
+                <img src="s2_image3.png" alt="" />
+              </div>
+              <div class="card-content">
+                <h3 class="s2_h3">JavaScript</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="s3">
+      <div class="container">
+        <div class="s3_wrapper">
+          <div class="s2_content">
+            <p class="s2_passions">My Portfolio</p>
+            <div class="s2_line"></div>
+          </div>
+          <div class="card_container">
+            <div class="card card1">
+              <div class="osnovacard">
+                <img class="logo" src="s3_Logoimage1.png" alt="" />
+                <p class="s3_sandpay">Sendpay</p>
+              </div>
+              <div class="image">
+                <img src="s3_image1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="card card2">
+              <div class="osnovacard">
+                <p class="s3_commerce">E-Commerce</p>
+              </div>
+              <div class="image">
+                <img src="s3_image2.png" alt="" />
+              </div>
+            </div>
+
+            <div class="card card3">
+              <div class="osnovacard">
+                <img class="logo" src="s3_Logoimage3.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="s3_image3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-header">
+        <h2 class="section-title">CONTACT</h2>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:mamutovdaniel70@gmail.com"
+              >mamutovdaniel70@gmail.com
+            </a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+996508013927">+996 (508) 013 927</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Bishkek, Kyrgyzstan</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <a href="https://instagram.com/_mamutovd_" target="_blank"
+              >@_mamutovd_</a
+            >
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-telegram"></i>
+            <a href="https://t.me/@mamutov_d" target="_blank">@mamutov_d</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/mamutovd" target="_blank">mamutovd</a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              placeholder="ENTER YOUR NAME*"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="ENTER YOUR EMAIL*"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="PHONE NUMBER" />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              placeholder="YOUR MESSAGE*"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+
+    <button id="scrollToTopBtn" title="Наверх">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
